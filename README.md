@@ -63,7 +63,10 @@ You must have your own yourkey.pem in project working directory.
 <pre><code class="copy-button">
  terraform apply
 </code></pre> 
-      -write 'yes' to create  resources
+
+-write <pre><code class="copy-button">
+yes
+</code></pre>  to create  resources
 
 * The DNS of public loadbalancer printes  in publicl-load-balancer-dns.txt copy it and test in your browser
 <pre><code class="copy-button">
