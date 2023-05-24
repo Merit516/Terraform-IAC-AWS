@@ -9,9 +9,9 @@ CloudProxy-IaC allows users to define their cloud infrastructure in a declarativ
 
 2-You must have an internet gateway, with routing set up so that only traffic from a public subnet can reach the internet.
 
-- It set up a Vritual private cloud(VPC) with Internet Gatway, public and private subnets , an Application load balancer(ALB) and EC2 instances, The archeitecture enavle routing requests from am internet-facing ALP to Nginx reverse a proxy instances to in internal ALB , The internal ALB directs the tarffic to Apache web server instance instances in private subnets ,serving the website content.
+3-It set up a Vritual private cloud(VPC) with Internet Gatway, public and private subnets , an Application load balancer(ALB) and EC2 instances, The archeitecture enavle routing requests from am internet-facing ALP to Nginx reverse a proxy instances to in internal ALB , The internal ALB directs the tarffic to Apache web server instance instances in private subnets ,serving the website content.
 
--The  remote backend block in Terraform configuration files is used to configure where Terraform stores its state file, which is a record of the current state of the infrastructure being managed. The state file is important because it helps Terraform to understand the current state of the infrastructure and what changes need to be made to bring it to the desired state.
+4-The  remote backend block in Terraform configuration files is used to configure where Terraform stores its state file, which is a record of the current state of the infrastructure being managed. The state file is important because it helps Terraform to understand the current state of the infrastructure and what changes need to be made to bring it to the desired state.
 
 - Using a remote backend like S3 allows multiple Terraform users to collaborate on infrastructure changes and ensures that the state file is always stored in a reliable, centralized location. It also provides additional security and auditing capabilities, such as versioning, logging, and access controls.
 
@@ -19,6 +19,8 @@ CloudProxy-IaC allows users to define their cloud infrastructure in a declarativ
 You must have your own yourkey.pem in project working directory.
 
 # to use 
-* AWS CLI *
+* AWS CLI 
 sudo apt install awscli -y
+* Configure Your Credientials [ID,Access-Key,regoin,profile]
+aws configure
 
