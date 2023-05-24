@@ -63,29 +63,14 @@ You must have your own yourkey.pem in project working directory.
 <pre><code class="copy-button">
  terraform apply
 </code></pre> 
-* -write 'yes' to create  resources
+  -write 'yes' to create  resources
 
 * The DNS of public loadbalancer printes  in publicl-load-balancer-dns.txt copy it and test in your browser
 <pre><code class="copy-button">
   cat public-loadbalancer.txt
 </code></pre>   
 
-<div class="warning">
-  <p><strong>Warning:</strong> To Destroy all resources </p>
-</div>
-.warning {
-  border: 1px solid #ffc107;
-  border-radius: 3px;
-  padding: 10px;
-  background-color: #fff3cd;
-  margin-bottom: 10px;
-}
-.warning p {
-  margin: 0;
-}
-.warning strong {
-  color: #856404;
-}
+* To Destroy all Resources
 
 <pre><code class="copy-button">
   terraform destroy
