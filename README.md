@@ -19,8 +19,12 @@ CloudProxy-IaC allows users to define their cloud infrastructure in a declarativ
 You must have your own yourkey.pem in project working directory.
 
 # to use 
-* AWS CLI 
+* AWS CLI
+''' 
 sudo apt install awscli -y
+'''
 * Configure Your Credientials [ID,Access-Key,regoin,profile]
+'''
 aws configure
+'''
 
