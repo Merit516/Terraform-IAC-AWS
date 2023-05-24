@@ -21,10 +21,13 @@ You must have your own yourkey.pem in project working directory.
 # to use 
 * AWS CLI
 
-sudo apt install awscli -y + v
+<pre><code class="copy-button">
+ sudo apt install awscli -y 
+</code></pre>
+
 
 * Configure Your Credientials [ID,Access-Key,regoin,profile]
-'''
+
 aws configure
-'''
+
 
