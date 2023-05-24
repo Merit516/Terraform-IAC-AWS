@@ -36,7 +36,7 @@ You must have your own yourkey.pem in project working directory.
 
 <pre><code class="copy-button">
  https://phoenixnap.com/kb/how-to-install-terraform
-</code></pre> clone 
+</code></pre> 
 
 
 * To Clone this Repository 
@@ -47,35 +47,49 @@ You must have your own yourkey.pem in project working directory.
 * To Run 
 <pre><code class="copy-button">
  terraform workspace new dev
-</code></pre> clone 
+</code></pre>  
 
 * To Initialize
 <pre><code class="copy-button">
  terraform init
-</code></pre> clone 
+</code></pre> 
 
 * To Test
 <pre><code class="copy-button">
  terraform init
-</code></pre> clone  
+</code></pre>  
 
 * To Apply
 <pre><code class="copy-button">
  terraform apply
-</code></pre> clone  
+</code></pre> 
 * -write 'yes' to create  resources
 
 * The DNS of public loadbalancer printes  in publicl-load-balancer-dns.txt copy it and test in your browser
 <pre><code class="copy-button">
   cat public-loadbalancer.txt
-</code></pre> clone  
+</code></pre>   
 
 <div class="warning">
   <p><strong>Warning:</strong> To Destroy all resources </p>
 </div>
+.warning {
+  border: 1px solid #ffc107;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #fff3cd;
+  margin-bottom: 10px;
+}
+.warning p {
+  margin: 0;
+}
+.warning strong {
+  color: #856404;
+}
+
 <pre><code class="copy-button">
   terraform destroy
-</code></pre> clone  
+</code></pre>   
 
 
 
