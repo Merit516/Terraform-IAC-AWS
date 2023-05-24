@@ -19,7 +19,7 @@ CloudProxy-IaC allows users to define their cloud infrastructure in a declarativ
 You must have your own yourkey.pem in project working directory.
 
 # to use 
-* AWS CLI
+*  To Install AWS CLI
 
 <pre><code class="copy-button">
  sudo apt install awscli -y 
@@ -28,6 +28,55 @@ You must have your own yourkey.pem in project working directory.
 
 * Configure Your Credientials [ID,Access-Key,regoin,profile]
 
-aws configure
+<pre><code class="copy-button">
+ aws configure
+</code></pre>
+
+*  To Install Terrform
+
+<pre><code class="copy-button">
+ https://phoenixnap.com/kb/how-to-install-terraform
+</code></pre> clone 
+
+
+* To Clone this Repository 
+<pre><code class="copy-button">
+ git clone 
+</code></pre> clone 
+
+* To Run 
+<pre><code class="copy-button">
+ terraform workspace new dev
+</code></pre> clone 
+
+* To Initialize
+<pre><code class="copy-button">
+ terraform init
+</code></pre> clone 
+
+* To Test
+<pre><code class="copy-button">
+ terraform init
+</code></pre> clone  
+
+* To Apply
+<pre><code class="copy-button">
+ terraform apply
+</code></pre> clone  
+* -write 'yes' to create  resources
+
+* The DNS of public loadbalancer printes  in publicl-load-balancer-dns.txt copy it and test in your browser
+<pre><code class="copy-button">
+  cat public-loadbalancer.txt
+</code></pre> clone  
+
+<div class="warning">
+  <p><strong>Warning:</strong> To Destroy all resources </p>
+</div>
+<pre><code class="copy-button">
+  terraform destroy
+</code></pre> clone  
+
+
 
 
