@@ -1,4 +1,4 @@
-# Terraform-CloudProxy-IaC-AWS 
+#                                                                                Terraform-CloudProxy-IaC-AWS 
 # CloudProxy Deffination
 CloudProxy is a cloud security company that offers cloud security services for AWS Platform. CloudProxy provides a range of security services, such as intrusion detection and prevention, vulnerability scanning, and web application firewall, among others. It also offers Infrastructure-as-Code (IaC) services that allow users to define and manage their cloud infrastructure resources using code.
 CloudProxy  is used in the context of cloud infrastructure, this  serve different purposes. CloudProxy is focused on security services and IaC.
