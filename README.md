@@ -54,9 +54,9 @@ You must have your own yourkey.pem in project working directory.
  terraform init
 </code></pre> 
 
-* To Test
+* To run
 <pre><code class="copy-button">
- terraform init
+ terraform paln
 </code></pre>  
 
 * To Apply
