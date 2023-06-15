@@ -18,7 +18,7 @@ CloudProxy-IaC allows users to define their cloud infrastructure in a declarativ
 # Note 
 You must have your own yourkey.pem in project working directory.
 
-# to use 
+# to use  
 *  To Install AWS CLI
 
 <pre><code class="copy-button">
